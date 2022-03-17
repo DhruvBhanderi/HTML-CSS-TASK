@@ -1,0 +1,61 @@
+body
+{	
+	/*background-color: lightblue;*/
+	background-image:url("Picture_07_Quiet.jpg");
+	background-repeat: x-repeat;   /*no-repeat , y-repeat*/
+	background-attachment: fixd;  /*scroll*/	
+}
+
+h1
+{
+	background-color : lightblue;
+	text-align: center;
+	color: green;
+	border-style: solid;
+	border-color: red green blue yellow;
+	border-width: 10px;
+}
+
+p 
+{
+	border-style: solid dotted double; 
+	border: 10px solid red;
+	border-radius: 10px;
+	color: green;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 30px;
+}
+
+h2
+{
+	border-color: red green blue yellow;
+	background-color : lightblue;
+	text-align: center;
+	color: green;
+	border-style: solid;
+	border-width: 10px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-right: 150px;
+	margin-left: 80px;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	/*margin: 25px 50px 75px 100px;
+	padding: 25px 50px 75px 100px;*/	
+}
+h3
+{
+	background-color : lightblue;
+	text-align: center;
+	color: green;
+	border: 2px solid black;
+	outline: blue solid 10px;
+	outline-offset: 5px;
+	margin: auto;  
+	padding: 20px;
+	text-align: center;
+}
+

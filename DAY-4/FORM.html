@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>FORM CREATION</title>
+	<link rel="icon" href="../DAY-1/download.png">
+</head>
+<body>
+	<form action="action_page.php" target="_blank" method="post" autocomplete="on">
+		
+	<h3 style="text-align:center">FORM</H3>
+	<fieldset>
+	<legend>FORM EXAMPLE</legend>
+		<lable for="fname">First Name:</lable><br>
+		<input type="text" id="fname" name="fname" placeholder="First Name" size="20" autofocus required><br>
+		<lable for="lname">Last Name:</lable><br>
+		<input type="text" id="lname" name="lanme" placeholder="Last Name" required><br>
+
+		<lable for="email">Email</label><br>
+		<input type="email" id="lable" name="lable" placeholder="Email" required autocomplete="off"><br>
+		<lable for="password">Password</lable><br>
+		<input type="password" id ="password" name="password" placeholder="Password" required><br>
+
+		<lable="birthday">Birthdate</lable><br>
+		<input type="date" id="birthday" name="birthday"><br>
+
+		<lable for="address">Address:</lable><br>
+		<textarea name="address" rows="3" cols="21" placeholder="Address" required></textarea><br><br>
+
+		<lable for="file">Choes a File</lable><br>
+		<input type="file" id="file" name="file"><br>	
+		
+	<h3>RADIO BUTTIONs</h3>
+		<input type="radio" id="html" name="fav_language" value="html">
+		<lable for="html">HTML</lable><br>
+		<input type="radio" id="java" name="fav_language" value='java'>
+		<lable for"java">JAVA</lable><br>
+		<input type="radio" id="javascript" name="fav_language" value="javascript">
+		<lable for="javascript">JAVASCRIPT</lable><br>
+
+	<h3>CHECHBOX</H3>
+		<input type="checkbox" id="html" name="html" value="html">
+		<lable for="html">HTML</lable><br>
+		<input type="checkbox" id="java" name="java" value="java">
+		<lable for="java">JAVA</lable><br>
+		<input type="checkbox" id="javascript" name="javascript" value="javascript">
+		<lable for="javascript">JAVASCRIPT</lable><br>
+
+	<h3>SELECT TAG</H3>
+		<lable for="car">Chooes a car:</lable>
+		<select id="car" name="car" size="3" multiple>
+			<option value="volvo" selected>VOLVO</option>
+			<option value="bmw">BMW</option>
+			<option value="jaguar">JAGUAR</option>
+			<option value="honda">HONDA</option>
+			<option value="hundai">HUNDAI</option>
+			<option value="farari">FARARI</option>
+		</select><br><br>
+
+
+		<input type="submit" value="submit">
+		<input type="reset">
+		<button type="button" onclick="alert('data is submit successfully')">pop up button</button>
+
+	</fieldset>
+	</form>
+</body>
+</html>

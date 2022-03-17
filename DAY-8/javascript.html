@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>JAVASCRIPT EXAMPLE</title>
+        <link rel="icon" href="../DAY-1/download.png">
+
+        <script>
+            function myfunction2()
+            {
+                document.getElementById('demo6').innerHTML = 'Good Afternoon'
+            }
+        </script>
+    <head/>
+
+    <body>
+        <p id="demoo"></p>
+            <script>
+                document.getElementById('demoo').innerHTML = 'Java Script Example'
+            </script>
+
+        <h1>JAVASCRIPT EXAMPLE</h1>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click me to see today's date
+            and time</button>
+            <p id="demo"></p><br>
+
+        <p>#INNERHTML ELEMENT#</p>
+        <button type="button" onclick='document.getElementById("demo1").innerHTML = "<b><i>Good Morning</i></b>"'>click me to chenge the text</button>
+            <p id="demo1">on button click this text will change to<b> Good Morning</b></p><br>
+
+
+        <p>#NONE ELEMENT#</p>
+        <button type="button" onclick="document.getElementById('demo2').style.display='none'">click me!</button>
+            <p id="demo2">this text will disapper while we click the button......</p><br><br>
+
+
+        <p>#BLOCK ELEMENT#</p>
+        <button type="button" onclick="document.getElementById('demo3').style.display='block'">click me!</button>
+            <p>When we click the button at that time we will see the <b><u>Good Morning</u></b> message......</p>
+            <p id="demo3" style="display:none">Good Morning</p><br><br>
+
+
+        <p>#USING .innerHTML ELEMENT WE CAN CHANGE THE VALUE#</p>
+        <button type="button" onclick="document.getElementById('demo4').innerHTML='Good afternoon'">click me!</button>
+            <p>when we click button at that time Good Morning will disapper and Good afternoon will show</p>
+            <p id="demo4">Good Morning</p><br>
+
+
+        <p>#SCRIPT TAG WRITTEN IN BODY#</p>
+        <button type="button" onclick="myfunction1()">click me!</button>
+        <script>
+            function myfunction1()
+            {
+                document.getElementById('demo5').innerHTML="Good afternoon";
+            }
+        </script>
+        <p id="demo5">Good morning</p><br>
+       
+       
+        <p>#SCRIPT TAGE WRITTEIN IN HEAD SECTION AND CALL THE FUNCTION TO USE THAT ELEMENT#</p>
+            <button type="button" onclick="myfunction2()">click me!</button>
+            <p id="demo6">Good morning</p><br>  
+        
+
+        <p>#VARIABLE DECLARATION#</p>
+        <p id="demo7"></p>
+        <script>
+            let a;
+            a = 5;
+            document.getElementById('demo7').innerHTML = a;
+        </script><br>
+
+
+        <p>#VARIABLE DECLE AND ADDITION & MULTIPLICATION#</p>
+        <p id="demo8"></p>
+        <script>
+            let b, c;
+            b = 5 + 5;
+            c = b * 10;
+            document.getElementById('demo8').innerHTML = "the value of y is " + c +"."; 
+        </script><br>
+        
+
+        <p id="demo9"></p>
+        <script>
+            let d = 5;
+            let e = 6;
+            document.getElementById('demo9').innerHTML = d + ',' + e;
+        </script><br>
+
+
+        <p>#IF ERROR IS OCCURE THEN USE TRY & CATCH BLOCK#</p>
+        <p id="demo10"></p>
+        <script>
+            try
+            {
+                let f, g;
+                f = 5 + 5;
+                g = h * 10;
+            }
+            catch (err)
+            {
+                document.getElementById('demo10').innerHTML = err;
+            }
+        </script>
+
+
+    </body>
+</html>

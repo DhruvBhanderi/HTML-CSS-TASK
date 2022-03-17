@@ -1,0 +1,15 @@
+<!DOCTTYPE html>  <!--IT DEFIEN THE HTML 5 DOCUMENT-->
+
+<html>	<!-- ROOT ELEMENT OF AND HTML PAGE-->
+	
+	<head>	<!-- CONTAIN META INFO OF HTML PAGE-->
+
+		<title>day 1 practice</title>	<!-- SPECIFIES THE TITLE FOR THE HTML PAGE WHICH IS DISPLAY IN BROWSER TITLE BAR-->
+
+	</head>
+
+	<body>
+		HTML HEADING TAGS
+
+	</body>
+</html>

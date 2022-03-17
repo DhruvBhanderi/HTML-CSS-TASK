@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>JAVASCRIPT IN HTML</title>
+	<link rel="icon" href="../DAY-1/download.png">
+</head>
+<body>
+	<b>JAVASCRIPT USE IN HTML</b><br><br>
+	<button onclick="myFunction()">hide city name</button>
+	<button onclick="displayResult()">display city name</button>
+ 	
+	<h2 class="lol">Gandhinagar</h2>
+	<p>Ghmedabad is the capital of Gujarat</p>
+	
+	<h2 class="lol">Ahmedabad</h2>
+	<p>Ahmedabad is the part if gujarat</p>
+
+<script>
+function city(sw) {
+  var city;
+  if (sw == 0) {
+    city = .class="lol"
+  } else {
+    city = .class="lol"
+  }
+  document.getElementByClassName('lol').src = city;
+}
+</script>
+
+	<script>
+		function myFunction()
+		{
+			var x = document.getElementsByClassName("lol");
+			for(var i=0; i<x.length; i++)
+			{
+				x[i].style.display="none";
+			}
+		}
+	</script>
+	<script>
+		function displayResult()
+		{
+			document.getElementByClassName("lol").innerHTML=lol;
+		}
+	</script>
+	
+	<h2>Using The id Attribute in JavaScript</h2>
+	<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+	
+	<h1 id="myHeader">hello World!</h1>
+	<button onclick="displayResult()">change text</button>
+
+	<script>
+		function displayResult()
+		{
+			document.getElementById("myHeader").innerHTML="heave a nice day!";
+		}
+	</script><br><br>
+
+	<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">Click me to dispaly date and time</button>
+	<p id="demo"></p>
+
+
+	
+
+</body>
+</html>	
